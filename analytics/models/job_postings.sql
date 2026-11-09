@@ -1,5 +1,5 @@
 
-select
+SELECT
 	job_id,
 	job_title,
 	company_name,
@@ -11,5 +11,5 @@ select
 	job_work_from_home,
 	search_date,
 	search_term
-from '../data/raw/raw_job_postings_*.parquet'	
-where error is NULL
+FROM '../data/raw/raw_job_postings_*.parquet'	
+WHERE error IS NULL
