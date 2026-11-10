@@ -73,6 +73,7 @@ No clone required. [Install DuckDB](https://duckdb.org/docs/installation/) (`bre
 INSTALL httpfs;
 LOAD httpfs;
 
+-- replace the duckdb database path by your own
 ATTACH 'https://github.com/2MOData/DBT-Data-Engineering/releases/download/warehouse/prod.duckdb' AS jobs;
 USE jobs;
 SHOW TABLES;
