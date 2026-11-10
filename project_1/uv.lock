@@ -14,7 +14,7 @@ sdist = { url = "https://files.pythonhosted.org/packages/30/85/9c3f3ee2f58a182b8
 [[package]]
 name = "dbt-data-eng"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "dbt" },
 ]
