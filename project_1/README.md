@@ -90,7 +90,7 @@ SELECT * FROM monthly_summary;
 
 Docs are generated with `dbt docs generate` and published to GitHub Pages:
 
-**→ [2modata.github.io/DBT-Data-Engineering/](https://2modata.github.io/DBT-Data-Engineering/project_1)**
+**→ [2modata.github.io/DBT-Data-Engineering/project_1](https://2modata.github.io/DBT-Data-Engineering/project_1)**
 
 The site shows:
 
