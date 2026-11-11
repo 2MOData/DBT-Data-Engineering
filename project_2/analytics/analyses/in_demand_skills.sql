@@ -6,7 +6,7 @@ WITH job_postings AS(
     {%- endif %}
 ),
 bridge AS( 
-    SELECT * FROM {{ref('bridge_job_skill')}}
+    SELECT * FROM {{ref('bridge_job_skills')}}
 ),
 skills AS (
     SELECT * FROM {{ref('dim_skill')}}
