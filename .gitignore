@@ -1,0 +1,14 @@
+# dbt build artifacts
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# local database + downloaded raw data (fetched from the GitHub release)
+*.duckdb
+*.duckdb.wal
+data/
+
+# python
+.venv/
+__pycache__/
