@@ -70,7 +70,6 @@ The marts keep each job's **latest** scrape — the snapshot table keeps **every
 
 - **504,591** version rows across **491,140** jobs — **10,187** jobs with real change history
 - **2,756** postings changed their salary between scrapes
-- Analyses on top: [`top_posting_editors.sql`](analytics/analyses/top_posting_editors.sql) (Meta edits the most postings — 415) and [`salary_swings.sql`](analytics/analyses/salary_swings.sql) (a posting that went $60K → $1,000,000 — snapshots catch typos mid-edit)
 
 ---
 
