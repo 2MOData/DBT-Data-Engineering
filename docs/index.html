@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DBT Data Engineering — dbt docs</title>
+<style>
+  body { font-family: system-ui, -apple-system, Segoe UI, sans-serif; background:#16181d; color:#e8e8e8; margin:0; }
+  main { max-width: 760px; margin: 0 auto; padding: 64px 24px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; }
+  p.lead { color:#a0a4ab; margin: 0 0 40px; }
+  a.card { display:block; text-decoration:none; color:inherit; border:1px solid #2c3038; border-radius:12px; padding:24px; margin-bottom:16px; transition: border-color .15s, background .15s; }
+  a.card:hover { border-color:#ff694b; background:#1d2027; }
+  .tag { font-size:.8rem; color:#ff694b; font-weight:600; letter-spacing:.04em; text-transform:uppercase; }
+  h2 { margin: 6px 0 8px; font-size: 1.25rem; }
+  .card p { margin:0; color:#a0a4ab; }
+  footer { margin-top:40px; font-size:.9rem; color:#7a7f87; }
+  footer a { color:#a0a4ab; }
+</style>
+</head>
+<body>
+<main>
+  <h1>DBT Data Engineering</h1>
+  <p class="lead">dbt documentation sites for my two job-postings pipelines: lineage, models, columns and tests.</p>
+
+  <a class="card" href="project_1/">
+    <div class="tag">Project 1 · dbt + DuckDB</div>
+    <h2>Automated Job Postings Pipeline (v1)</h2>
+    <p>Sources → staging → insight marts, built and published by GitHub Actions.</p>
+  </a>
+
+  <a class="card" href="project_2/">
+    <div class="tag">Project 2 · dbt + Databricks</div>
+    <h2>Production Job Postings Pipeline (v2)</h2>
+    <p>Star schema, SCD2 snapshots and incremental loads, run by a scheduled Databricks Job.</p>
+  </a>
+
+  <footer>Source code: <a href="https://github.com/2MOData/DBT-Data-Engineering">github.com/2MOData/DBT-Data-Engineering</a></footer>
+</main>
+</body>
+</html>
