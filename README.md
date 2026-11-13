@@ -146,4 +146,4 @@ See each project's README for details.
 
 ## 📚 Context
 
-Built while following the [dbt for Data Analytics & Engineering course](https://www.lukebarousse.com)[ /video](https://www.youtube.com/watch?v=1Bf049kXV2g&t=30301s) by Luke Barousse. Dataset: real job postings scraped daily, July 2025 – June 2026, from the course's [dataset release](https://github.com/lukebarousse/dbt_Analytics_Engineering_Course/releases/tag/dataset-v1).
+Built while following the [dbt for Data Analytics & Engineering course](https://www.lukebarousse.com) / [video](https://www.youtube.com/watch?v=1Bf049kXV2g&t=30301s) by Luke Barousse. Dataset: real job postings scraped daily, July 2025 – June 2026, from the course's [dataset release](https://github.com/lukebarousse/dbt_Analytics_Engineering_Course/releases/tag/dataset-v1).
